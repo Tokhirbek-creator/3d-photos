@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3D-фотокарусель с параллаксом</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- общий блок для всей карусели -->
+    <div class="container">
+      <!-- блок, который собирает фотографии в кольцо -->
+      <div class="ring">
+        <!-- блоки для изображений в карусели -->
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+        <div class="img"></div>
+      </div>
+    </div>
+    <!-- подключаем платформу анимации GSAP, чтобы создавать анимации сразу с параллаксом -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- подключаем Zepto — облегчённую библиотеку, аналог jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+    <!-- подключаем наш основной скрипт -->
+    <script src="script.js"></script>
+  </body>
+</html>
